@@ -38,8 +38,8 @@ const toggleComplete = (id) => {
 
   return (
     <TodoProvider value={{todos, addTodo, updateTodo, deleteTodo, toggleComplete}}>
-      <div className="bg-slate-400 h-screen p-6 py-10 w-screen">
-                <div className="w-full max-w-2xl mx-auto shadow-md rounded-lg px-4 py-3 bg-slate-800 text-white">
+      <div className="bg-black h-screen p-6 py-10 w-screen">
+                <div className="w-full max-w-2xl mx-auto shadow-md rounded-lg px-4 py-3 bg-black text-white">
                     <h1 className="text-2xl font-bold text-center mb-8 mt-2">Manage Your Todos</h1>
                     <div className="mb-4">
                         {/* Todo form goes here */} 
